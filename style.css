@@ -1,0 +1,71 @@
+
+body {
+    font-family: 'Arial', sans-serif; /* Fuente suave */
+    background-color: #e0f7e9; /* Color de fondo verde claro */
+    color: #2e7d32; /* Color del texto en un verde más oscuro */
+    margin: 0;
+    padding: 0;
+}
+
+#galeria {
+    display: grid; /* Activamos el grid */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Define la cantidad de columnas */
+    gap: 10px; /* Espacio entre las imágenes */
+}
+
+#galeria img {
+    width: 100%; /* Las imágenes ocuparán el 100% de su contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 8px; /* Un poco de estilo: esquinas redondeadas */
+}
+
+
+
+/* Estilo para el encabezado */
+header {
+    background-color: #c8e6c9; /* Fondo más claro para el encabezado */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para el título */
+h1 {
+    font-size: 2.5em; /* Aumenta el tamaño del título */
+    margin: 0; /* Elimina el margen por defecto */
+}
+
+/* Estilo para el contenido principal */
+main {
+    padding: 20px; /* Espaciado interno */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #333; /* Color de fondo */
+    color: white; /* Color del texto */
+    text-align: center; /* Centrar el texto */
+    padding: 20px; /* Espaciado interno */
+    position: relative; /* Posicionamiento */
+    bottom: 0; /* Alinear al fondo */
+    width: 100%; /* Ancho del footer */
+    margin-top: 20px; /* Espaciado superior para separar del contenido anterior */
+}
+
+footer p {
+    margin: 5px 0; /* Espaciado entre párrafos */
+}
